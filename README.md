@@ -39,7 +39,17 @@ javac *.java
 java Main
 ```
 
-In Eclipse, create a Java Project, add these seven `.java` classes to the default package under `src`, and run `Main.java` as a Java Application.
+In Eclipse, create a Java Project, add the eight `.java` classes to the default package under `src`, and run `Main.java` as a Java Application.
+
+## Automated tests
+
+The optional `TestRunner.java` class checks both custom queues and the workflow that connects them. Run it after compiling:
+
+```bash
+java TestRunner
+```
+
+Expected summary: **33 passed, 0 failed**. The normal application starts with `java Main`.
 
 ## Example demonstration
 
